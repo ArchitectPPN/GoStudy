@@ -6,6 +6,8 @@ func main(){
 	var i int 
 
 	for i=2; i < 100; i++ {
-		fmt.Printf("%d", i)	
+		if(i % 2 == 0){
+			fmt.Printf("%d", i)
+		}
 	}
 }
