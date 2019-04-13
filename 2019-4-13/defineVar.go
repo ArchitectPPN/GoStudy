@@ -30,4 +30,5 @@ func main() {
 	fmt.Printf("m= %T %v \n ", m, m)
 	fmt.Printf("n= %T %v \n ", n, n)
 	fmt.Printf("%T %v \n ", q, q)
+
 }
