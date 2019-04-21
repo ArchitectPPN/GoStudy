@@ -38,4 +38,20 @@ func main() {
 	const name = iota
 	const hh = iota
 	fmt.Println(name, hh)
+
+	var integer = 2
+
+	switchTest(integer)
+
+}
+
+func switchTest(test int) {
+	switch test {
+	case 1:
+		fmt.Printf("test: %d", test)
+	case 2:
+		fmt.Printf("test: %d", test)
+	case 3:
+		fmt.Printf("test: %d", test)
+	}
 }
