@@ -21,6 +21,13 @@ func main(){
 	// 获取切片中的偶数元素
 	even := Filter(arr, isEven)
 	fmt.Println("偶数元素: ", even)
+
+	// 获取切片中的奇数元素
+	oneEven := Filter(arr, addOneIsOdd)
+	fmt.Println("+1是奇数:", oneEven)
+	// 获取切片中的偶数元素
+	oneOdd := Filter(arr, addOneIsEven)
+	fmt.Println("+1是偶数:", oneOdd)
 }
 
 // 判断整型元素是偶数
@@ -39,6 +46,22 @@ func isOdd(num int) bool {
 	}
 
 	return true
+}
+
+// 判断数值+1是否为奇数
+func addOneIsOdd(num int) bool {
+	if (num + 1) % 2 == 0 {
+		return false
+	}
+	return true
+}
+
+func addOneIsEven(num int) bool {
+	if (num + 1) % 2 == 0 {
+		return true
+	}
+
+	return false
 }
 
 // 根据函数来处理切片, 实现奇书偶数分组, 返回新的切片
