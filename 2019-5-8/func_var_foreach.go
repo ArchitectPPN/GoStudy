@@ -11,7 +11,7 @@ import "fmt"
 type myFunc func(int) bool
 
 func main(){
-	arr := []int {23, 4, 5, 6, 77, 90, 98, 76, 762, 32, 13, 17 }
+	arr := []int {23, 4, 5, 6, 77, 90, 98, 76, 762, 32, 13, 17}
 	fmt.Println("slice = ", arr)
 
 	// 获取切片中的奇数元素
