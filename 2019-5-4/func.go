@@ -24,7 +24,7 @@ func main(){
 func processLetter(str string) string {
 	result := ""
 	for i, value := range str {
-		if i%2 == 0 {
+		if i % 2 == 0 {
 			result += strings.ToUpper(string(value))
 		} else {
 			result += strings.ToLower(string(value))

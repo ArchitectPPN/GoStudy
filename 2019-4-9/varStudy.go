@@ -7,7 +7,7 @@ func main(){
 	
 	fmt.Println(name)
 	
-	age := 1
+	age := 26
 
 	fmt.Printf("%s %d 岁了 \n", name, age)
 

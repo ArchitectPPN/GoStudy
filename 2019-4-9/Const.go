@@ -4,7 +4,7 @@ import "fmt"
 
 // 定义常量 常量名 数据类型 = 值
 const WIDTH int = 100
-const HEIGT int = 200
+const HEIGHT int = 200
 
 const(
 	FIRST = iota
@@ -21,7 +21,7 @@ const(
 )
 
 func main(){
-	fmt.Printf("面积是: %d \n", WIDTH * HEIGT)
+	fmt.Printf("面积是: %d \n", WIDTH * HEIGHT)
 	fmt.Println(LENGTH, FLAG)
 	fmt.Printf("\n")
 

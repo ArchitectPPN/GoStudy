@@ -16,14 +16,10 @@ func main() {
 }
 
 func max(num1, num2 int) int {
-	var result int
 	if num1 > num2 {
-		result = num1
-	} else {
-		result = num2
+		return  num1
 	}
-
-	return result
+	return num2
 }
 
 func swap(string1 int, string2 string) string {

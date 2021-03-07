@@ -15,6 +15,7 @@ var (
 func main() {
 	m := 1
 	n := 2
+
 	m, n, q := 4, 5, 6
 
 	aInteger = 190
