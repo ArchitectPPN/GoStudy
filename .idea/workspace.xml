@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2a2d6f26-5c59-442f-bb2a-bc23c6b28e20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/definedArray.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Slice/SliceLenAndCap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Slice/definedSlice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/DeleteMapKey.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/MapNew.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-10/defineArray.go" beforeDir="false" afterPath="$PROJECT_DIR$/声明变量/defineArray.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-10/defineVar2.go" beforeDir="false" afterPath="$PROJECT_DIR$/声明变量/defineVar2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-10/struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/声明变量/struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-11/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-11/array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-11/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-11/func.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-13/defineVar.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-13/defineVar.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-21/for.go" beforeDir="false" afterPath="$PROJECT_DIR$/For/for.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-21/for_qiantao.go" beforeDir="false" afterPath="$PROJECT_DIR$/For/for_qiantao.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-21/switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/For/switch.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-8/HelloWorld.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-8/HelloWorld.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-9/Const.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-9/Const.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-9/for.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-9/for.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-9/if.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-9/if.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-9/varStudy.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-9/varStudy.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-5-4/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-5-4/func.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,43 +36,13 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Program Files/Go" />
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/2019-4-11/array.go" />
-        <option value="$PROJECT_DIR$/2019-4-13/defineVar.go" />
-        <option value="$PROJECT_DIR$/IDEStudy/IDE快捷键.md" />
-        <option value="$PROJECT_DIR$/FormatPrintf/formatPrintf.go" />
-        <option value="$PROJECT_DIR$/FormatPrintf/dataType.go" />
-        <option value="$PROJECT_DIR$/FormatPrintf/const.go" />
-        <option value="$PROJECT_DIR$/2019-4-21/switch.go" />
-        <option value="$PROJECT_DIR$/2019-4-21/for.go" />
-        <option value="$PROJECT_DIR$/2019-4-21/for_qiantao.go" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
   <component name="ProjectId" id="1pPpIUaYoAkMUmw73B04LUtqIAm" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -103,20 +74,28 @@
       <recent name="E:\GoStudy\2019-4-13" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build SliceLenAndCap.go">
+  <component name="RunManager" selected="Go Build.go build DeleteMapKey.go">
+    <configuration name="go build DeleteMapKey.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Map/DeleteMapKey.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build MapNew.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Map/MapNew.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build SliceLenAndCap.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Slice/SliceLenAndCap.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build defineVar.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2019-4-13/defineVar.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -136,49 +115,26 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build func_var_foreach.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2019-5-8/func_var_foreach.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build DeleteMapKey.go" />
+        <item itemvalue="Go Build.go build MapNew.go" />
         <item itemvalue="Go Build.go build SliceLenAndCap.go" />
         <item itemvalue="Go Build.go build definedSlice.go" />
         <item itemvalue="Go Build.go build definedArray.go" />
-        <item itemvalue="Go Build.go build func_var_foreach.go" />
-        <item itemvalue="Go Build.go build defineVar.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35298508" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3660508" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.35135135" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3290993" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.329718" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a2d6f26-5c59-442f-bb2a-bc23c6b28e20" name="Default Changelist" comment="" />
+      <created>1615808655074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615808655074</updated>
+    </task>
+    <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -213,6 +169,32 @@
     <MESSAGE value="update: 变量的定义; IDE的快捷键学习" />
     <option name="LAST_COMMIT_MESSAGE" value="update: 变量的定义; IDE的快捷键学习" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="752" y="454" key="#GOROOT" timestamp="1615808704598">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="752" y="454" key="#GOROOT/0.0.1920.1049@0.0.1920.1049" timestamp="1615808704598" />
+    <state width="1877" height="424" key="GridCell.Tab.0.bottom" timestamp="1615809859434">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1877" height="424" key="GridCell.Tab.0.bottom/0.0.1920.1049@0.0.1920.1049" timestamp="1615809859434" />
+    <state width="1877" height="424" key="GridCell.Tab.0.center" timestamp="1615809859434">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1877" height="424" key="GridCell.Tab.0.center/0.0.1920.1049@0.0.1920.1049" timestamp="1615809859434" />
+    <state width="1877" height="424" key="GridCell.Tab.0.left" timestamp="1615809859433">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1877" height="424" key="GridCell.Tab.0.left/0.0.1920.1049@0.0.1920.1049" timestamp="1615809859433" />
+    <state width="1877" height="424" key="GridCell.Tab.0.right" timestamp="1615809859434">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state width="1877" height="424" key="GridCell.Tab.0.right/0.0.1920.1049@0.0.1920.1049" timestamp="1615809859434" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1615809852748">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1049@0.0.1920.1049" timestamp="1615809852748" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -223,76 +205,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IDEStudy/IDE快捷键.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="336">
-            <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-4-11/func.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-4-11/array.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-4-13/defineVar.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FormatPrintf/formatPrintf.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FormatPrintf/dataType.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FormatPrintf/const.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-4-21/switch.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-4-21/for.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-4-21/for_qiantao.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
