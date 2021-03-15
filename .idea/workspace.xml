@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a2d6f26-5c59-442f-bb2a-bc23c6b28e20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Map/ExistMap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Map/delMap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Map/map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Map/rangeMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/InOrderRangeMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/valueIsSliceMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointer/newPointer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,7 @@
       <recent name="E:\GoStudy\2019-4-13" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build ExistMap.go">
+  <component name="RunManager" selected="Go Build.go build newPointer.go">
     <configuration name="go build ExistMap.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,11 +90,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build SliceLenAndCap.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build InOrderRangeMap.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Slice/SliceLenAndCap.go" />
+      <filePath value="$PROJECT_DIR$/Map/InOrderRangeMap.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -107,29 +106,29 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build newPointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Map/map.go" />
+      <filePath value="$PROJECT_DIR$/Pointer/newPointer.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build rangeMap.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build valueIsSliceMap.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Map/rangeMap.go" />
+      <filePath value="$PROJECT_DIR$/Map/valueIsSliceMap.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build newPointer.go" />
+        <item itemvalue="Go Build.go build valueIsSliceMap.go" />
+        <item itemvalue="Go Build.go build InOrderRangeMap.go" />
         <item itemvalue="Go Build.go build ExistMap.go" />
         <item itemvalue="Go Build.go build delMap.go" />
-        <item itemvalue="Go Build.go build rangeMap.go" />
-        <item itemvalue="Go Build.go build map.go" />
-        <item itemvalue="Go Build.go build SliceLenAndCap.go" />
       </list>
     </recent_temporary>
   </component>
@@ -172,22 +171,22 @@
       <screen x="0" y="0" width="1616" height="960" />
     </state>
     <state x="601" y="411" key="#GOROOT/0.0.1616.960@0.0.1616.960" timestamp="1615814951825" />
-    <state width="1572" height="193" key="GridCell.Tab.0.bottom" timestamp="1615816053072">
+    <state width="1572" height="343" key="GridCell.Tab.0.bottom" timestamp="1615820174718">
       <screen x="0" y="0" width="1616" height="960" />
     </state>
-    <state width="1572" height="193" key="GridCell.Tab.0.bottom/0.0.1616.960@0.0.1616.960" timestamp="1615816053072" />
-    <state width="1572" height="193" key="GridCell.Tab.0.center" timestamp="1615816053072">
+    <state width="1572" height="343" key="GridCell.Tab.0.bottom/0.0.1616.960@0.0.1616.960" timestamp="1615820174718" />
+    <state width="1572" height="343" key="GridCell.Tab.0.center" timestamp="1615820174718">
       <screen x="0" y="0" width="1616" height="960" />
     </state>
-    <state width="1572" height="193" key="GridCell.Tab.0.center/0.0.1616.960@0.0.1616.960" timestamp="1615816053072" />
-    <state width="1572" height="193" key="GridCell.Tab.0.left" timestamp="1615816053071">
+    <state width="1572" height="343" key="GridCell.Tab.0.center/0.0.1616.960@0.0.1616.960" timestamp="1615820174718" />
+    <state width="1572" height="343" key="GridCell.Tab.0.left" timestamp="1615820174718">
       <screen x="0" y="0" width="1616" height="960" />
     </state>
-    <state width="1572" height="193" key="GridCell.Tab.0.left/0.0.1616.960@0.0.1616.960" timestamp="1615816053071" />
-    <state width="1572" height="193" key="GridCell.Tab.0.right" timestamp="1615816053072">
+    <state width="1572" height="343" key="GridCell.Tab.0.left/0.0.1616.960@0.0.1616.960" timestamp="1615820174718" />
+    <state width="1572" height="343" key="GridCell.Tab.0.right" timestamp="1615820174718">
       <screen x="0" y="0" width="1616" height="960" />
     </state>
-    <state width="1572" height="193" key="GridCell.Tab.0.right/0.0.1616.960@0.0.1616.960" timestamp="1615816053072" />
+    <state width="1572" height="343" key="GridCell.Tab.0.right/0.0.1616.960@0.0.1616.960" timestamp="1615820174718" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
