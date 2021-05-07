@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// 定义常量 常量名 数据类型 = 值
+// WIDTH 定义常量 常量名 数据类型 = 值
 const WIDTH int = 100
 const HEIGHT int = 200
 
