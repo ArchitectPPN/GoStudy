@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a2d6f26-5c59-442f-bb2a-bc23c6b28e20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/definedArray.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Slice/SliceLenAndCap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Slice/definedSlice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-10/defineArray.go" beforeDir="false" afterPath="$PROJECT_DIR$/声明变量/defineArray.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-10/defineVar2.go" beforeDir="false" afterPath="$PROJECT_DIR$/声明变量/defineVar2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-10/struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/声明变量/struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-11/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-11/array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-11/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-11/func.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-13/defineVar.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-13/defineVar.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-21/for.go" beforeDir="false" afterPath="$PROJECT_DIR$/For/for.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-21/for_qiantao.go" beforeDir="false" afterPath="$PROJECT_DIR$/For/for_qiantao.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-21/switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/For/switch.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-8/HelloWorld.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-8/HelloWorld.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-9/Const.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-9/Const.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-9/for.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-9/for.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-9/if.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-9/if.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-4-9/varStudy.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-4-9/varStudy.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019-5-4/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019-5-4/func.go" afterDir="false" />
-    </list>
+    <list default="true" id="2a2d6f26-5c59-442f-bb2a-bc23c6b28e20" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +82,7 @@
       <recent name="E:\GoStudy\2019-4-13" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build SliceLenAndCap.go">
+  <component name="RunManager" selected="Go Build.go build VarDefine.go">
     <configuration name="go build SliceLenAndCap.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -112,11 +91,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build defineVar.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build VarDefine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2019-4-13/defineVar.go" />
+      <filePath value="$PROJECT_DIR$/变量名的定义/VarDefine.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -136,21 +115,21 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build func_var_foreach.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build for_qiantao.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2019-5-8/func_var_foreach.go" />
+      <filePath value="$PROJECT_DIR$/For/for_qiantao.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build VarDefine.go" />
+        <item itemvalue="Go Build.go build for_qiantao.go" />
         <item itemvalue="Go Build.go build SliceLenAndCap.go" />
         <item itemvalue="Go Build.go build definedSlice.go" />
         <item itemvalue="Go Build.go build definedArray.go" />
-        <item itemvalue="Go Build.go build func_var_foreach.go" />
-        <item itemvalue="Go Build.go build defineVar.go" />
       </list>
     </recent_temporary>
   </component>

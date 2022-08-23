@@ -1,0 +1,1 @@
+[参考文档](https://www.liwenzhou.com/posts/Go/01_var_and_const/)
