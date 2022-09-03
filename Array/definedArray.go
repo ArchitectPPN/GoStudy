@@ -8,7 +8,6 @@ func main()  {
 	person[0] = "小李子"
 	person[1] = "Wonderful"
 	person[2] = "KangKang"
-
 	fmt.Printf("person的值： %v\n", person)
 
 	// 声明方法2
@@ -20,10 +19,20 @@ func main()  {
 	fmt.Printf("热门语言： %v", language)
 
 	// 多维数组
-	milt := [...][2]string{
+	miltArr := [...][2]string{
 		{"北极","伤害"},
 		{"OK","PP"},
 		{"北极","伤害"},
 	}
-	fmt.Printf("热门语言： %v", milt)
+	fmt.Printf("热门语言： %v \n", miltArr)
+
+	// 多维数组的读取
+	for indexKey, val1 := range miltArr {
+		for twoKey, item := range val1 {
+			fmt.Println("key: ", indexKey, "value: ", val1, "key: ", twoKey, "value: ", item)
+		}
+	}
+
 }
+
+

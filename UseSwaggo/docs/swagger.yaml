@@ -1,0 +1,64 @@
+definitions:
+  controllers.Res:
+    properties:
+      id:
+        type: string
+      name:
+        type: string
+      userType:
+        type: string
+    type: object
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+paths:
+  /user:
+    post:
+      description: 提交用户信息
+      parameters:
+      - description: ID
+        in: formData
+        name: id
+        required: true
+        type: integer
+      - description: 姓名
+        in: formData
+        name: name
+        required: true
+        type: string
+      - description: 类别
+        in: formData
+        name: userType
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.Res'
+      summary: Add an user
+      tags:
+      - 用户
+  /user/{id}:
+    get:
+      description: 获取用户信息
+      parameters:
+      - description: ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: ok
+          schema:
+            type: string
+      summary: Get an user
+      tags:
+      - 用户
+swagger: "2.0"
