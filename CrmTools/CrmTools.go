@@ -28,6 +28,14 @@ type taskInfo struct {
 	taskId string
 }
 
+type stageLastModel struct {
+	StageId      string
+	CaseId       string
+	MaterialType int
+	ReceiptId    string
+	Qualified    int
+}
+
 func apiIndex(w http.ResponseWriter, r *http.Request) {
 	_, err := fmt.Fprintf(w, "WelCome Api Index !\n")
 	if err != nil {
@@ -160,7 +168,7 @@ func main() {
 	http.HandleFunc("/getUserInfo", getUserInfoById)
 	http.HandleFunc("/newUser", newUser)
 
-	httpErr := http.ListenAndServe(":80", nil)
+	httpErr := http.ListenAndServe(":8090", nil)
 	if httpErr != nil {
 		fmt.Println("http server start err: ", httpErr)
 		return
