@@ -39,14 +39,6 @@ type caseInfo struct {
 	CaseState    string
 }
 
-type stageLastModel struct {
-	StageId      string
-	CaseId       string
-	MaterialType int
-	ReceiptId    string
-	Qualified    int
-}
-
 func apiIndex(w http.ResponseWriter, r *http.Request) {
 	_, err := fmt.Fprintf(w, "WelCome Api Index !\n")
 	if err != nil {
