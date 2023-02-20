@@ -173,7 +173,7 @@ func initDb() (err error) {
 }
 
 func fetchOneRow(userId int) user {
-	querySql := "SELECT * FROM user WHERE id = ?"
+	querySql := "SELECT * FROM users WHERE id = ?"
 
 	var user user
 	err := dbObj.QueryRow(querySql, userId).Scan(&user.id, &user.userName, &user.age)
@@ -242,7 +242,7 @@ func newUser(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func main() {
+func mainCopy() {
 	// 设置当前环境
 	env = "dev"
 
