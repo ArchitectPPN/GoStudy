@@ -2,19 +2,23 @@ package main
 
 import "fmt"
 
-func main()  {
-	// 声明切片
-	var sliceEx []string
+func main() {
+	sliceOne := []int{1, 2, 3}
 
-	sliceEx = append(sliceEx, "1111")
-	sliceEx = append(sliceEx, "11112222")
-	fmt.Printf("%v", sliceEx)
+	fmt.Println("值:", sliceOne, "len:", len(sliceOne), "cap:", cap(sliceOne))
 
-	//
-	var a []string
-	var b = []string{"1", "2", "3"}
-	var c = []bool{false,true}
-	var d = []bool{false,true}
+	fmt.Printf("未扩容前的地址:%p \n", sliceOne)
 
-	fmt.Printf("%v, %v, %v, %v", a, b, c, d)
+	// 引用传值
+	appendVal(sliceOne)
+	// 输出的值被修改了
+	fmt.Println(sliceOne)
+}
+
+// 添加值
+func appendVal(sliceOne []int) {
+	fmt.Printf("函数内部，扩容之前地址: %p \n", sliceOne)
+	sliceOne = append(sliceOne, 4)
+	fmt.Println("函数内输出值:", sliceOne, "len:", len(sliceOne), "cap:", cap(sliceOne))
+	fmt.Printf("扩容后的地址:%p \n", sliceOne)
 }
