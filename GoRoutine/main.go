@@ -12,6 +12,7 @@ func main() {
 }
 
 type GetQcRes struct {
+	mu sync.Mutex
 }
 
 func NewGetQcRes() *GetQcRes {
@@ -81,6 +82,10 @@ func (g *GetQcRes) assembleQcRes(qc *Res, wg *sync.WaitGroup) {
 // assembleReceiptList 组装收获记录列表
 func (g *GetQcRes) assembleReceiptList(qc *Res, wg *sync.WaitGroup) {
 	defer wg.Done()
+
+	// 加锁
+	g.mu.Lock()
+	defer g.mu.Unlock()
 
 	for i := 0; i < 100; i++ {
 		receipt := &Receipt{Id: "polk-joke-p98i-jgb8", MaterialType: "口扫"}
